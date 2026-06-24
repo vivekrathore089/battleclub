@@ -1,0 +1,266 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/admin/content/[slug]",
+      "regex": "^/admin/content/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/admin/content/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/games/[slug]",
+      "regex": "^/games/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/games/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/matches/[id]",
+      "regex": "^/matches/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/matches/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/app-information",
+      "regex": "^/admin/app\\-information(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/app\\-information(?:/)?$"
+    },
+    {
+      "page": "/admin/banners",
+      "regex": "^/admin/banners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/banners(?:/)?$"
+    },
+    {
+      "page": "/admin/content",
+      "regex": "^/admin/content(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/content(?:/)?$"
+    },
+    {
+      "page": "/admin/deposit-requests",
+      "regex": "^/admin/deposit\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/deposit\\-requests(?:/)?$"
+    },
+    {
+      "page": "/admin/games",
+      "regex": "^/admin/games(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/games(?:/)?$"
+    },
+    {
+      "page": "/admin/matches",
+      "regex": "^/admin/matches(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/matches(?:/)?$"
+    },
+    {
+      "page": "/admin/notice",
+      "regex": "^/admin/notice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/notice(?:/)?$"
+    },
+    {
+      "page": "/admin/push-notifications",
+      "regex": "^/admin/push\\-notifications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/push\\-notifications(?:/)?$"
+    },
+    {
+      "page": "/admin/security",
+      "regex": "^/admin/security(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/security(?:/)?$"
+    },
+    {
+      "page": "/admin/staff-management",
+      "regex": "^/admin/staff\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/staff\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/users",
+      "regex": "^/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users(?:/)?$"
+    },
+    {
+      "page": "/admin/wallet-settings",
+      "regex": "^/admin/wallet\\-settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/wallet\\-settings(?:/)?$"
+    },
+    {
+      "page": "/admin/withdrawal-requests",
+      "regex": "^/admin/withdrawal\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/withdrawal\\-requests(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/home",
+      "regex": "^/home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/matches",
+      "regex": "^/matches(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/matches(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
+      "page": "/profile/edit",
+      "regex": "^/profile/edit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/edit(?:/)?$"
+    },
+    {
+      "page": "/profile/security",
+      "regex": "^/profile/security(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/security(?:/)?$"
+    },
+    {
+      "page": "/profile/statistics",
+      "regex": "^/profile/statistics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/statistics(?:/)?$"
+    },
+    {
+      "page": "/refer",
+      "regex": "^/refer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/refer(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    },
+    {
+      "page": "/support",
+      "regex": "^/support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/support(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    },
+    {
+      "page": "/top-players",
+      "regex": "^/top\\-players(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/top\\-players(?:/)?$"
+    },
+    {
+      "page": "/wallet",
+      "regex": "^/wallet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/wallet(?:/)?$"
+    },
+    {
+      "page": "/watch-earn",
+      "regex": "^/watch\\-earn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/watch\\-earn(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
